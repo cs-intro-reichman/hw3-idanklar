@@ -65,7 +65,7 @@ public class Algebra {
 			times = plus(times, x1);
 			x2 --;
 		}
-		if (isNegative) {
+		if (!isNegative) {
 			return times;
 		} else {
 			return minus(0, times);
@@ -100,7 +100,7 @@ public class Algebra {
 			x1 = minus(x1, x2);
 			result++;
 		}
-		if (isNegative) {
+		if (!isNegative) {
 			return result;
 		} else {
 			return minus(0, result);
