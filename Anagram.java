@@ -70,7 +70,7 @@ public class Anagram {
 	// Returns a random anagram of the given string. The random anagram consists of the same
 	// characters as the given string, re-arranged in a random order. 
 	public static String randomAnagram(String str) {
-		String fixedStr = " ";
+		String fixedStr = "";
 		for(int i = 0; i < str.length(); i++) {
 			if (str.charAt(i) != ' ') {
 				fixedStr += str.charAt(i);
